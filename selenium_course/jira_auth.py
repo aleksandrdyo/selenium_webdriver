@@ -17,9 +17,9 @@ def get_my_open_tasks():
 get_my_open_tasks()
 
 
-issue = jira.issue('DYO-1')
-print(issue.fields.project.key)
-print(issue.fields.issuetype.name)
-print(issue.fields.reporter.displayName)
-print(issue.fields.summary)
-print(issue.fields.comment.comments)
+#issue = jira.issue('DYO-1')
+#print(issue.fields.project.key)
+#print(issue.fields.issuetype.name)
+#print(issue.fields.reporter.displayName)
+#print(issue.fields.summary)
+#print(issue.fields.comment.comments)
