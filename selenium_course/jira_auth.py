@@ -10,9 +10,9 @@ jira = JIRA('https://dyo999.atlassian.net/',
 project = 'project = dyo'
 
 def get_my_open_tasks():
-    issues1 = jira.search_issues(project)
-    for x in range(len(issues1)):
-        print(issues1[x])
+    issues = jira.search_issues(project)
+    for x in range(len(issues)):
+        print(issues[x])
 
 get_my_open_tasks()
 
