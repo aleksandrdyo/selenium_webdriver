@@ -1,3 +1,0 @@
-pytest==7.1.2
-requests==2.25.1
-responses==0.10.14
